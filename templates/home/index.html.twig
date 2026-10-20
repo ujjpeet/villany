@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Villany-Szerelő Kft. – Megbízható villanyszerelési szolgáltatások Budapest és környékén. Kérjen ingyenes árajánlatot!">
+    <title>Villany-Szerelő Kft. – Megbízható villanyszerelés</title>
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+</head>
+<body>
+
+{# ── Navbar ── #}
+<nav id="navbar">
+    <div class="nav-inner">
+        <a href="#hero" class="nav-logo">
+            <span class="bolt">⚡</span>
+            Villany-Szerelő Kft.
+        </a>
+        <button class="nav-toggle" id="navToggle" aria-label="Menü">
+            <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#rolunk">Rólunk</a></li>
+            <li><a href="#szolgaltatasok">Szolgáltatások</a></li>
+            <li><a href="#miert">Miért mi?</a></li>
+            <li><a href="#arajanlat" class="nav-cta">Árajánlat</a></li>
+            <li><a href="#kapcsolat">Kapcsolat</a></li>
+        </ul>
+    </div>
+</nav>
+
+{# ── Hero ── #}
+<section id="hero">
+    <div class="hero-inner">
+        <div class="hero-badge">⚡ Megbízható villanyszerelés</div>
+        <h1>Az áram, ami <span>biztonságban</span> tart</h1>
+        <p>
+            Professzionális villanyszerelési megoldások lakásokhoz, irodákhoz és ipari létesítményekhez.
+            Gyors, megbízható és megfizethető.
+        </p>
+        <div>
+            <a href="#arajanlat" class="btn-primary">Kérjen ingyenes árajánlatot</a>
+            <a href="#szolgaltatasok" class="btn-outline">Szolgáltatásaink</a>
+        </div>
+        <div class="hero-stats">
+            <div class="stat"><strong>15+</strong><span>Év tapasztalat</span></div>
+            <div class="stat"><strong>800+</strong><span>Elvégzett munka</span></div>
+            <div class="stat"><strong>100%</strong><span>Elégedett ügyfél</span></div>
+            <div class="stat"><strong>24/7</strong><span>Hibaelhárítás</span></div>
+        </div>
+    </div>
+</section>
+
+{# ── Rólunk ── #}
+<section id="rolunk">
+    <div class="container">
+        <div class="rolunk-grid">
+            <div class="rolunk-img">
+                <span class="icon-big">⚡</span>
+            </div>
+            <div>
+                <span class="section-tag">Rólunk</span>
+                <h2 class="section-title">15 éve az Ön szolgálatában</h2>
+                <p class="section-lead">
+                    A Villany-Szerelő Kft. 2009 óta nyújt minőségi villanyszerelési szolgáltatásokat
+                    Budapest és vonzáskörzetében. Szakképzett mestereink minden munkát precízen,
+                    határidőre és az érvényes szabványoknak megfelelően végeznek el.
+                </p>
+                <div class="rolunk-features">
+                    <div class="rolunk-feature">
+                        <div class="icon">🎓</div>
+                        <div>
+                            <h4>Képzett szakemberek</h4>
+                            <p>Minden szerelőnk engedéllyel rendelkező, folyamatosan képzett villanyszerelő mester.</p>
+                        </div>
+                    </div>
+                    <div class="rolunk-feature">
+                        <div class="icon">📋</div>
+                        <div>
+                            <h4>Engedélyes kivitelezés</h4>
+                            <p>Munkáinkat minden esetben szabályszerűen dokumentáljuk és átadjuk az érintési vizsgálatot.</p>
+                        </div>
+                    </div>
+                    <div class="rolunk-feature">
+                        <div class="icon">🛡️</div>
+                        <div>
+                            <h4>Garanciális munkavégzés</h4>
+                            <p>2 év teljes körű garanciát vállalunk minden elvégzett munkánkra.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{# ── Szolgáltatások ── #}
+<section id="szolgaltatasok">
+    <div class="container">
+        <span class="section-tag">Szolgáltatások</span>
+        <h2 class="section-title">Mivel tudunk segíteni?</h2>
+        <p class="section-lead">Teljes körű villanyszerelési megoldásokat kínálunk magánszemélyeknek és vállalkozásoknak egyaránt.</p>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">🏠</div>
+                <h3>Lakás- és házvillamosítás</h3>
+                <p>Új építésű és felújítandó ingatlanok teljes elektromos hálózatának tervezése és kivitelezése.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">⚡</div>
+                <h3>Hibaelhárítás</h3>
+                <p>Gyors kiszállás, szakszerű diagnosztika és azonnali javítás. Akár hétvégén és ünnepnapokon is.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">💡</div>
+                <h3>Világítástechnika</h3>
+                <p>LED-átállás, okos otthon megoldások, beltéri és kültéri világítás tervezése és szerelése.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🔌</div>
+                <h3>Elosztótábla csere</h3>
+                <p>Elavult biztosítéktáblák korszerű, szabványnak megfelelő elosztókra cserélése.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🏢</div>
+                <h3>Irodai és ipari szerelés</h3>
+                <p>Kereskedelmi és ipari létesítmények elektromos rendszereinek kiépítése, karbantartása.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🔋</div>
+                <h3>Napelem bekötés</h3>
+                <p>Napelemes rendszerek hálózathoz kapcsolása, inverter bekötés, fogyasztásmérő csere koordinálása.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+{# ── Miért válasszon minket? ── #}
+<section id="miert">
+    <div class="container">
+        <span class="section-tag">Miért mi?</span>
+        <h2 class="section-title">Miért válasszon minket?</h2>
+        <p class="section-lead">Több száz elégedett ügyfelünk tudja, miért bíznak bennünk újra és újra.</p>
+        <div class="miert-grid">
+            <div class="miert-card">
+                <div class="icon">⏱️</div>
+                <h3>Pontosság</h3>
+                <p>Betartjuk az egyeztetett időpontokat. Az Ön ideje értékes.</p>
+            </div>
+            <div class="miert-card">
+                <div class="icon">💰</div>
+                <h3>Átlátható árak</h3>
+                <p>Nincs rejtett díj. Az árajánlatban rögzített ár az ár.</p>
+            </div>
+            <div class="miert-card">
+                <div class="icon">🛡️</div>
+                <h3>2 év garancia</h3>
+                <p>Minden munkánkra 2 év garanciát vállalunk. Visszajövünk, ha baj van.</p>
+            </div>
+            <div class="miert-card">
+                <div class="icon">📞</div>
+                <h3>Gyors visszahívás</h3>
+                <p>Megkeresésére 2 órán belül válaszolunk munkanapokon.</p>
+            </div>
+            <div class="miert-card">
+                <div class="icon">📄</div>
+                <h3>Számla és dokumentáció</h3>
+                <p>Számlát adunk, és átadjuk az elvégzett munkák dokumentációját.</p>
+            </div>
+            <div class="miert-card">
+                <div class="icon">🌍</div>
+                <h3>Budapest és környéke</h3>
+                <p>50 km-es körzetben kiszállunk. Ingyenes helyszíni felmérés.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+{# ── Árajánlat ── #}
+<section id="arajanlat">
+    <div class="container">
+        <div class="arajanlat-wrap">
+            <div class="arajanlat-info">
+                <span class="section-tag">Árajánlat</span>
+                <h2>Kérjen ingyenes árajánlatot!</h2>
+                <p>
+                    Töltse ki az űrlapot, és 2 munkanapon belül visszahívjuk.
+                    Az első helyszíni felmérés díjmentes.
+                </p>
+                <div class="contact-items">
+                    <div class="contact-item">
+                        <div class="icon">📞</div>
+                        <span>+36 30 123 4567</span>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon">✉️</div>
+                        <span>info@villanyszerelo.hu</span>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon">⏰</div>
+                        <span>H–P: 7:00–18:00 | Szombat: 8:00–14:00</span>
+                    </div>
+                </div>
+            </div>
+            <div class="arajanlat-form">
+                {% if app.flashes('success') is not empty %}
+                    {% for msg in app.flashes('success') %}
+                        <div class="flash-success">✅ {{ msg }}</div>
+                    {% endfor %}
+                {% endif %}
+                <h3>Kapcsolatfelvételi űrlap</h3>
+                <form method="POST" action="#arajanlat">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="nev">Teljes név *</label>
+                            <input type="text" id="nev" name="nev" placeholder="Kovács János" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="telefon">Telefonszám *</label>
+                            <input type="tel" id="telefon" name="telefon" placeholder="+36 30 000 0000" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail cím</label>
+                        <input type="email" id="email" name="email" placeholder="pelda@email.hu">
+                    </div>
+                    <div class="form-group">
+                        <label for="szolgaltatas">Milyen munkára van szüksége? *</label>
+                        <select id="szolgaltatas" name="szolgaltatas" required>
+                            <option value="">– Válasszon –</option>
+                            <option>Lakás- és házvillamosítás</option>
+                            <option>Hibaelhárítás</option>
+                            <option>Világítástechnika</option>
+                            <option>Elosztótábla csere</option>
+                            <option>Irodai és ipari szerelés</option>
+                            <option>Napelem bekötés</option>
+                            <option>Egyéb</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="uzenet">Üzenet / leírás</label>
+                        <textarea id="uzenet" name="uzenet" placeholder="Röviden írja le, mire van szüksége…"></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary form-submit">Árajánlatot kérek →</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+{# ── Kapcsolat ── #}
+<section id="kapcsolat">
+    <div class="container">
+        <span class="section-tag">Kapcsolat</span>
+        <h2 class="section-title">Elérhetőségeink</h2>
+        <div class="kapcsolat-grid">
+            <div class="kapcsolat-card">
+                <div class="icon">📞</div>
+                <h4>Telefon</h4>
+                <p><a href="tel:+36301234567">+36 30 123 4567</a></p>
+            </div>
+            <div class="kapcsolat-card">
+                <div class="icon">✉️</div>
+                <h4>E-mail</h4>
+                <p><a href="mailto:info@villanyszerelo.hu">info@villanyszerelo.hu</a></p>
+            </div>
+            <div class="kapcsolat-card">
+                <div class="icon">📍</div>
+                <h4>Székhely</h4>
+                <p>1111 Budapest,<br>Villamos utca 12.</p>
+            </div>
+            <div class="kapcsolat-card">
+                <div class="icon">⏰</div>
+                <h4>Nyitvatartás</h4>
+                <p>H–P: 7:00–18:00<br>Szombat: 8:00–14:00</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+{# ── Footer ── #}
+<footer>
+    <p>&copy; {{ "now"|date("Y") }} <span>Villany-Szerelő Kft.</span> – Minden jog fenntartva.</p>
+</footer>
+
+<script>
+// Navbar scroll effect
+window.addEventListener('scroll', function () {
+    document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 50);
+});
+
+// Mobile menu toggle
+document.getElementById('navToggle').addEventListener('click', function () {
+    document.getElementById('navLinks').classList.toggle('open');
+});
+
+// Close menu on link click
+document.querySelectorAll('#navLinks a').forEach(function (a) {
+    a.addEventListener('click', function () {
+        document.getElementById('navLinks').classList.remove('open');
+    });
+});
+</script>
+</body>
+</html>
